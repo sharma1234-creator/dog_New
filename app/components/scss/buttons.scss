@@ -1,0 +1,29 @@
+
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 180px;
+  border: none;
+}
+
+button:active {
+  background-image: linear-gradient(267deg, #2c29ff, #614aff, #8069ff, #9986ff);
+  
+}
+
+button:focus {
+  outline:0;
+  color:white;
+}
+
+.btn_highligthed {
+  background-image: linear-gradient(267deg, #2c29ff, #614aff, #8069ff, #9986ff);
+    color: white;  
+}
+
+
+.btn_default {
+
+}

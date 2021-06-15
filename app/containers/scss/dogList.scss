@@ -1,0 +1,42 @@
+.sample-container {
+  height: 100%;
+}
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+
+  }
+img {
+  height: 200px;
+  margin: 5px;
+  width: 200px;
+
+/*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+    object-fit:scale-down;
+}
+
+.dog-pictures {
+  width: 1000px;
+  display: flex;
+  align-items: flex-start;
+  // flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.doggo-container {
+
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h1 {
+  font-weight: 200;
+  color: #2C29FF;
+}
